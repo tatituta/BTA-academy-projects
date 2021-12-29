@@ -1,0 +1,108 @@
+.row{
+    display: flex;
+}
+.header ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+
+}
+.header li
+{
+float:left;
+}
+.header li a{
+    display:block;
+    color:rgb(92, 91, 91);
+    text-align:center;
+    text-decoration:none;
+    padding:10px 14px;
+}
+.header .end{
+    margin-left: 15px;
+}
+.header{
+    margin-left:auto ;
+}
+.pff {
+    background-image: url('../pics1/desktop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    min-height: 500px;
+    min-width: auto;
+    padding: 70px;
+}
+.hd {
+    text-align: center;
+    margin-top: 100px;
+}
+.hd h5
+{
+color:rgb(92, 91, 91);
+}
+.pff .hd .btn
+{
+    background-color: #df613b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+.t h2 ,
+.t p
+{
+ text-align: center;
+ 
+}
+.t p
+{
+    color:rgb(92, 91, 91);
+}
+.x
+{
+    background-color: rgb(241, 241, 247);
+    
+}
+.wrapper 
+{
+    width:90%
+}
+#txt 
+{
+    justify-content: center;
+    background-color:rgb(241, 241, 247); 
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: white;
+
+}
+.text
+{
+    background-color: white;
+    width:80%;
+    border:none;   
+}
+#txt content 
+{
+    justify-content: space-between;
+}
+
+#txt .content .col 
+{
+    width:24%;
+    
+}
+
